@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>post</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="eon">
+	<!-- Date: 2009-12-01 -->
+</head>
+<body>
+<!--
+    author = db.StringProperty(multiline=False)
+    date =  db.DateTimeProperty(auto_now_add=True)    # publish date, eg: if the date is after the current date the post won't be published.
+    title = db.StringProperty(multiline=False)
+    text = db.StringProperty(multiline=True)
+-->
+
+<form action="/post" method="post">
+	{% if current %}
+	<input type="hidden" name="epoch" value="{{ current.epoch }}">
+	{% endif %}
+<b>	Author:
+	<div><input type="text" value="{{ current.author }}" cols="100" name="author" /></div><br>
+	Title:
+ 	<div><input type="text" value="{{ current.title }}" cols="100" name="title" /></div><br>
+	Content:
+   <div><textarea name="text"  rows="15" cols="130">{{ current.text }}</textarea></div><br>
+    <div><input type="submit" value="Save"></div>
+	</b>
+</form>
+
+
+<p><p>
+{% if articles %}
+	{% for post in articles %}
+		<b><h2>{{ post.title}}</b></h2><br>
+		{{post.author}} -- {{post.date}} -- {{post.epoch}}<br>
+		<blockquote>{{post.text}}</blockquote><br>
+		{% if admin %}
+		<a href="/post?article={{ post.epoch }}">Edit post {{ post.epoch }}</a>
+		{% endif %} <!-- admin -->
+	{% endfor%}
+{% endif %} <!-- articles -->
+
+
+</body>
+</html>

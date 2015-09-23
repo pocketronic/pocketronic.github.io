@@ -1,0 +1,68 @@
+seyDoggy PlayMore r2 GM - 02-23-09 23:52
+release notes:
+
+* Info.plist (8)	 updated revision level 02-23-09 23:34 
+* extracontent.js (1)	 updated to extracontent.js r1.3 02-23-09 23:35 
+* jquery.js (1)	 updated to jQuery v1.3.2 02-23-09 23:36 
+* Theme.plist (2685)	 updated revision level 02-23-09 23:34
+
+seyDoggy PlayMore r1 GM - 01-02-09 15:20
+release notes:
+
+* initial public release
+* header1.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header10.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header2.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header3.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header4.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header5.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header6.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header7.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header8.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* header9.css (2)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* styles.css (231)	 changed in .header_custom - _center no-repeat_ to _top no-repeat_ 12-31-08 14:36
+* styles.css (1368)	 added additional column styles 12-30-08 14:10
+* e7.css (29)	 added #toolbar_vertical { position: relative; } 12-31-08 15:59
+* e7.css (33)	 added .contentContainer { position: relative; } 01-02-09 15:20
+
+seyDoggy PlayMore r1 beta 3 - 12-22-08 16:35
+release notes:
+
+* colourtag.css (254)	 added GoogaLoom styles 12-22-08 14:15
+* ie6.css (29)	 added #toolbar_vertical li {zoom: 1;} 12-22-08 16:18
+* ie6.css (34)	 added #toolbar_vertical ul ul ul {margin: 3px 0 0;} 12-22-08 16:33
+* hide.css (3)	 added to .subContent - _background: transparent;_ to combat IE6 issue 12-22-08 15:56
+* hide.css (3)	 added to .subHeader - _background: transparent;_ to combat IE6 issue 12-22-08 15:56
+* styles.css (365)	 added to .tbh_bg .title - _position: absolute;_ to combat disappearing nav issue 12-22-08 11:24
+* styles.css (1301)	 added GoogaLoom styles 12-22-08 14:54
+
+seyDoggy PlayMore r1 beta 2 - 12-19-08 00:09
+release notes:
+
+* colourtag.css (2)	 added to body - .content_bg 12-18-08 23:33
+* colourtag.css (126)	 added to .subContent - .wrapper 12-18-08 23:45
+* print.css (1)	 added print.css styles 12-08-08 13:24
+* hide.css (5)	 added .wrapper {background: transparent;} 12-18-08 23:35
+* show.css (2)	 removed from .subContent - _background: url(../../images/bg_subcontent.png) repeat-x;_ 12-18-08 23:25
+* accent.css (2)	 removed from .subHeader - _background: url(../../images/bg_content.png) repeat-x;_ 12-18-08 23:45
+* accent.css (4)	 added to .subHeader - _padding: 0;_ 12-18-08 23:47
+* show.css (2)	 removed from .subHeader - _background: url(../../images/bg_content.png) repeat-x;_ 12-18-08 23:24
+* index.html (11)	 moved %style_variations% below colourtag call 12-18-08 23:45
+* index.html (38)	 modified IE conditional statements in preparation for IE support 12-18-08 13:03
+* index.html (79)	 changed <div class="clear pad"></div> to <div class="clear"></div> 12-18-08 22:09
+* index.html (115)	 changed <div class="clear pad"></div> to <div class="clear"></div> 12-18-08 22:09
+* Contents	 removed /css/subcontent/accent.css 12-18-08 23:41
+* styles.css (258)	 removed .subHeader #extraContainer2 {} 12-18-08 23:26
+* styles.css (260)	 removed .subHeader .pad {} 12-18-08 23:26
+* styles.css (274)	 added to .content_bg - _padding: 40px 0;_ 12-18-08 22:14
+* styles.css (308)	 removed .subContent #extraContainer3 { } 12-18-08 22:08
+* styles.css (310)	 removed .subContent .pad { } 12-18-08 22:08
+* styles.css (425)	 removed from #toolbar_vertical - _position: relative; top: 20px;_ 12-18-08 23:29
+* styles.css (1308)	 moved column css to end of cascade 12-18-08 16:28
+* Theme.plist (1066)	 removed "Accent" option from Subcontent (ExtraContent 3) 12-18-08 23:39
+* Theme.plist (2665)	 preview_large.jpg to preview_large.png 12-19-08 00:01
+
+seyDoggy PlayMore r1 beta 1 - 12-18-08 11:44
+release notes:
+
+* initial beta release

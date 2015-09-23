@@ -1,0 +1,270 @@
+/* @goup Colours (general) */
+body, .content_bg {
+	color: #BBBBBB;
+	background-color: #090909;
+}
+
+/*global links*/
+a:link, a:visited, code {
+	color: #2B7FF7;
+}
+
+a:hover, a:active {
+	color: #3186FF;
+}
+
+/*headings and accents*/
+h1, h2, h3, h4, h5, h6,
+sub, sup, s {
+	color: #FBFBFB;
+}
+
+/*pre and form fields*/
+pre, .form-input-field {
+	background: #2F2F2F;
+	color: #BBBBBB;
+}
+
+/*global borders*/
+.footerContainer,
+.blog-entry,
+#blog-categories,
+#blog-archives,
+ul.blog-tag-cloud,
+#blog-rss-feeds,
+.filesharing-item-description,
+.filesharing-item-title,
+.form-input-field,
+pre,
+.thumbnail-frame img,
+.photo-frame,
+.movie-thumbnail-frame img,
+.movie-frame object,
+ul#twitter_update_list li {
+	border-color: #3A3A3A;
+}
+
+/* @end */
+
+/* @group Colours (header) */
+
+.header {
+	background-color: #353535;
+}
+/*site title*/
+.tbh_bg .title {
+	color: #DEDEDE;
+}
+
+.header .content a:link, .header a:visited, .header code {
+	color: #808080;
+}
+
+.header .content a:hover, .header .content a:active {
+	color: #FFFFFF;
+}
+
+/*.header headings and accents*/
+.header .content h1,
+.header .content h2,
+.header .content h3,
+.header .content h4,
+.header .content h5,
+.header .content h6,
+.header .content sub,
+.header .content sup,
+.header .content s {
+	color: #DBDBDB;
+}
+
+/*header content*/
+.header .content {
+	color: #B3B3B3;
+}
+
+/*site slogan*/
+.header .slogan {
+	color: #B3B3B3;
+}
+
+/* @end */
+
+/* @goup Colours (sub-header) */
+
+.subHeader {
+	background-color: #030303;
+	color: #CCCCCC;
+}
+
+/*Sub-header links*/
+.subHeader a:link, .subHeader a:visited, .subHeader code {
+	color: #808080;
+}
+
+.subHeader a:hover, .subHeader a:active {
+	color: #FFFFFF;
+}
+
+/*Sub-header headings and accents*/
+.subHeader h1,
+.subHeader h2,
+.subHeader h3,
+.subHeader h4,
+.subHeader h5,
+.subHeader h6,
+.subHeader sub,
+.subHeader sup,
+.subHeader s {
+	color: #E6E6E6;
+}
+
+/* @end */
+
+/* @goup Colours (sub-content) */
+
+.subContent, .wrapper {
+	background-color: #1B1B1B;
+	color: #BBBBBB;
+}
+
+/*Sub-content links*/
+.subContent a:link, .subContent a:visited, .subContent code {
+	color: #808080;
+}
+
+.subContent a:hover, .subContent a:active {
+	color: #FFFFFF;
+}
+
+/*Sub-content headings and accents*/
+.subContent h1,
+.subContent h2,
+.subContent h3,
+.subContent h4,
+.subContent h5,
+.subContent h6,
+.subContent sub,
+.subContent sup,
+.subContent s {
+	color: #000000;
+}
+
+/* @end */
+
+/* @goup Colours (footer) */
+
+.footerContainer {
+	background-color: #000000;
+	color: #BBBBBB;
+}
+
+/*footer links*/
+.footerContainer a:link, .footerContainer a:visited, .footerContainer code {
+	color: #808080;
+}
+
+.footerContainer a:hover, .footerContainer a:active {
+	color: #FFFFFF;
+}
+
+/* @end */
+
+/* @group Colors (top nav) */
+.tbh_bg {
+	background-color: #000000;
+}
+
+#toolbar_horizontal ul li.current a:link,
+#toolbar_horizontal ul li.current a:visited {
+	color: #FFFFFF;
+}
+
+#toolbar_horizontal ul li a:hover,
+#toolbar_horizontal ul li a:active {
+	color: #3186FF;
+}
+
+#toolbar_horizontal ul li.currentAncestor a:link,
+#toolbar_horizontal ul li.currentAncestor a:visited {
+	color: #205AAF;
+}
+
+#toolbar_horizontal ul li.currentAncestor a:hover,
+#toolbar_horizontal ul li.currentAncestor a:active {
+	color: #3186FF;
+}
+
+#toolbar_horizontal ul li.normal a:link,
+#toolbar_horizontal ul li.normal a:visited {
+	color: #205FB9;
+}
+
+#toolbar_horizontal ul li.normal a:hover,
+#toolbar_horizontal ul li.normal a:active {
+	color: #3186FF;
+}
+
+/* @end */
+
+/* @group Colors (side nav) */
+#toolbar_vertical .currentAncestor a:link,
+#toolbar_vertical .currentAncestor a:visited {
+	color: #1983D0;
+	background-color: #3C3C3C;
+}
+
+#toolbar_vertical .currentAncestor a:hover,
+#toolbar_vertical .currentAncestor a:active {
+	color: #F6C603;
+	background-color: #4B4B4B;
+}
+
+#toolbar_vertical .current a:link,
+#toolbar_vertical .current a:visited {
+	color: #F6C703;
+	background-color: #3A3A3A;
+}
+
+#toolbar_vertical .current a:hover,
+#toolbar_vertical .current a:active {
+	color: #1983D0;
+	background-color: #4B4B4B;
+}
+
+#toolbar_vertical .normal a:link,
+#toolbar_vertical .normal a:visited {
+	color: #DEDEDE;
+	background-color: #2A2A2A;
+}
+
+#toolbar_vertical .normal a:hover,
+#toolbar_vertical .normal a:active {
+	color: #1983D0;
+	background-color: #3A3A3A;
+}
+
+#toolbar_vertical ul ul li a {
+	border-color: #1D1D1D;
+}
+
+/* @end */
+
+/* @group plugin support */
+
+/*GoogaLoom*/
+#googlecart-widget * {
+	background-color: #090909 ! important;
+	color: #BBBBBB;
+	border-color: #3A3A3A ! important;
+}
+
+.googlecart-widget-title,
+.googlecart-widget-remove {
+	color: #2B7FF7 ! important;
+}
+
+.googlecart-widget-quantity-box {
+	background: #2F2F2F;
+	color: #BBBBBB;
+}
+/* @end */

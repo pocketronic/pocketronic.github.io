@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>news</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="eon">
+	<!-- Date: 2009-12-01 -->
+</head>
+<body>
+Pocketronic News...
+{% if articles %}
+	{% for post in articles %}
+		<b><h2>{{ post.title}}</b></h2><br>
+		{{post.author}} -- {{post.date}}<br>
+		<blockquote>{{post.text}}</blockquote><br>
+		{% if admin %}
+		<a href="/post?article={{ post.epoch }}">Edit {{ post.name }}</a>
+		{% endif %} <!-- admin -->
+	{% endfor%}
+{% endif %} <!-- articles -->
+
+</body>
+</html>

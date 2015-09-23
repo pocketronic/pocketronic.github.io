@@ -1,0 +1,35 @@
+body {
+	line-height: 1.7em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+h6 {
+	font-size: 0.7em;
+}
+
+#toolbar_vertical li {
+	zoom: 1;/*has layout*/
+}
+
+#toolbar_vertical ul ul ul {
+	margin: 3px 0 0;
+}

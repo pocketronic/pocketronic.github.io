@@ -1,0 +1,8 @@
+.subHeader {
+	height: 32px;
+	padding: 0;
+}
+
+.subHeader .content {
+	display: none;
+}
